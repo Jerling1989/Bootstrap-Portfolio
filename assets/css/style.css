@@ -1,3 +1,4 @@
+/* GENERAL STYLES */
 body {
 	background-image: url("../images/bg_image.jpg");
 	background-position: left top
@@ -12,46 +13,18 @@ h1 {
 	font-size: 1.5em;
 }
 
-
-
 h3 {
 	font-family: Georgia;
 	font-size: 1.2em;
 }
 
-
 p {
 	font-family: arial;
 	font-size: 1.5em;
-
 }
 
 
-#info {
-	color: #4aaaa5;
-	font-weight: bold;
-	border-bottom-width: 2px;
-	border-bottom-width: 100%;
-	border-bottom-color: grey;
-	text-align: center;
-}
-
-
-#footer {
-	background-color: grey;
-	height: 8%;
-	border-top-style: solid;
-	border-top-width: 8px;
-	border-top-color: #4aaaa5;
-}
-
-
-#copyright {
-	padding: 20px;
-	font-size: 0.8em;
-	color: #eeeff3;
-}
-
+/* PAGE HEADER */
 #header {
 	height: 12%;
 	background-color: #eeeff3;
@@ -64,6 +37,17 @@ p {
 	background-color: #4aaaa5;
 	height: 100%;
 	color: #eeeff3;
+	text-align: center;
+}
+
+
+/* MAIN SECTION */
+#info {
+	color: #4aaaa5;
+	font-weight: bold;
+	border-bottom-width: 2px;
+	border-bottom-width: 100%;
+	border-bottom-color: grey;
 	text-align: center;
 }
 
@@ -93,6 +77,15 @@ p {
 	min-height: auto;
 }
 
+#picture {
+	text-align: center;
+	width: 80%;
+	height: auto;
+	padding: 1%;
+}
+
+
+/* CONNECT CARD */
 #connect {
 	text-align: center;
 	background-color: #eeeff3;
@@ -109,13 +102,8 @@ p {
 	padding: 1%;
 }
 
-#picture {
-	text-align: center;
-	width: 80%;
-	height: auto;
-	padding: 1%;
-}
 
+/* CONTACT SECTION */
 #contact {
   background-color: #eeeff3;
   padding: 1%;
@@ -125,7 +113,6 @@ p {
   border-width: 3px;
   margin-bottom: 20px;
 }
-
 
 fieldset {
   border: medium none !important;
@@ -143,7 +130,6 @@ fieldset {
   padding: 10px;
 }
 
-
 #contact textarea {
   height: 100px;
   width: 100%;
@@ -159,6 +145,20 @@ fieldset {
   margin: 0 0 5px;
   padding: 10px;
   font-size: 15px;
-
 }
 
+
+/* FOOTER */
+#footer {
+	background-color: grey;
+	height: 8%;
+	border-top-style: solid;
+	border-top-width: 8px;
+	border-top-color: #4aaaa5;
+}
+
+#copyright {
+	padding: 20px;
+	font-size: 0.8em;
+	color: #eeeff3;
+}
